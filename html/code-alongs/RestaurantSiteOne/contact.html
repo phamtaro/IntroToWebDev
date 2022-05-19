@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+
+    <header>
+        <title>Boba Baby</title>
+        <h1>Boba Baby</h1>
+    </header>
+
+    <nav>
+        <hr>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact Us</a>
+        <hr>
+    </nav>
+
+    <main>
+        <form action="https://wp.zybooks.com/form-viewer.php" method="POST">
+            <p>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"></input>
+            </p>
+
+            <p>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email"
+                pattern="[a-zA-Z0-9-_\.]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*"></input>
+            </p>
+
+            <p>
+                <label for="phone">Phone:</label>
+                <input type="text" id="phone" name="phone"
+                pattern="[0-9]" maxlength="11"></input>
+            </p>
+
+            <p>
+                <label for=type">Reason for Inquiry:</label>
+                <select name="type" id="type">
+                    <option value="Catering">Catering</option>
+                    <option value="Private">Private Party</option>
+                    <option value="Feedback" default>Feedback</option>
+                    <option value="Other">Other</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="textbox">Additional Information:</label>
+                <textarea name="textbox" id="textbox"></textarea>
+            </p>
+
+            <p>
+                Have you been to the restaurant?
+                <input type="radio" name="visit" id="no"></input>
+                <label for="id">No</label>
+                <input type="radio" name="visit" id="yes"></input>
+                <label for="id">Yes</label>
+            </p>
+
+            <p>
+                Best days to contact you:
+                <input type="checkbox" name="day" id="monday"></input>
+                <label for="monday">M</label>
+                <input type="checkbox" name="day" id="tuesday"></input>
+                <label for="monday">T</label>
+                <input type="checkbox" name="day" id="wednesday"></input>
+                <label for="monday">W</label>
+                <input type="checkbox" name="day" id="thursday"></input>
+                <label for="monday">Th</label>
+                <input type="checkbox" name="day" id="friday"></input>
+                <label for="monday">F</label>
+            </p>
+
+            <input type="submit" value="Send Request">
+
+        </form>
+
+    </main>
+
+    <footer>
+        <hr>
+        123 Bubble Street, Aldergrove, BC Canada<br>
+        (604) 567 - 8910
+        <hr>
+    </footer>
+
+</html>
