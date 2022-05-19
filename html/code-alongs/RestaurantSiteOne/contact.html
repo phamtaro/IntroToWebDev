@@ -3,7 +3,7 @@
 <meta charset="utf-8">
 
     <header>
-        <title>Boba Baby</title>
+        <title>BobaBaby | Contact Us</title>
         <h1>Boba Baby</h1>
     </header>
 
@@ -30,16 +30,15 @@
 
             <p>
                 <label for="phone">Phone:</label>
-                <input type="text" id="phone" name="phone"
-                pattern="[0-9]" maxlength="11"></input>
+                <input type="number" id="phone" name="phone"></input>
             </p>
 
             <p>
                 <label for=type">Reason for Inquiry:</label>
                 <select name="type" id="type">
-                    <option value="Catering">Catering</option>
+                    <option value="Catering" selected>Catering</option>
                     <option value="Private">Private Party</option>
-                    <option value="Feedback" default>Feedback</option>
+                    <option value="Feedback">Feedback</option>
                     <option value="Other">Other</option>
                 </select>
             </p>
@@ -51,24 +50,24 @@
 
             <p>
                 Have you been to the restaurant?
-                <input type="radio" name="visit" id="no"></input>
+                <input type="radio" name="visit" id="no" value="No"></input>
                 <label for="id">No</label>
-                <input type="radio" name="visit" id="yes"></input>
+                <input type="radio" name="visit" id="yes" value="Yes"></input>
                 <label for="id">Yes</label>
             </p>
 
             <p>
                 Best days to contact you:
-                <input type="checkbox" name="day" id="monday"></input>
+                <input type="checkbox" name="day" id="monday" value="Monday"></input>
                 <label for="monday">M</label>
-                <input type="checkbox" name="day" id="tuesday"></input>
-                <label for="monday">T</label>
-                <input type="checkbox" name="day" id="wednesday"></input>
-                <label for="monday">W</label>
-                <input type="checkbox" name="day" id="thursday"></input>
-                <label for="monday">Th</label>
-                <input type="checkbox" name="day" id="friday"></input>
-                <label for="monday">F</label>
+                <input type="checkbox" name="day" id="tuesday" value="Tuesday"></input>
+                <label for="tuesday">T</label>
+                <input type="checkbox" name="day" id="wednesday" value="Wednesday"></input>
+                <label for="wednesday">W</label>
+                <input type="checkbox" name="day" id="thursday" value="Thursday"></input>
+                <label for="thursday">Th</label>
+                <input type="checkbox" name="day" id="friday" value="Friday"></input>
+                <label for="friday">F</label>
             </p>
 
             <input type="submit" value="Send Request">
